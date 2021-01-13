@@ -1,0 +1,39 @@
+.skewedBox {
+  background: #ce2932;
+  padding: 100px 0;
+
+  transform: skew(0deg, -15deg) translateY(-20px);
+}
+
+.container {
+  transform: skew(0deg, 15deg);
+}
+
+.quote__left {
+  color: white;
+  margin-top: 60px;
+  margin-left: 530px;
+  padding-right: 450px;
+}
+
+.quote__mark {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.quote__quote {
+  font-size: 30px;
+  font-weight: 400;
+  word-spacing: 1px;
+  padding-right: 10%;
+}
+
+.quote__name {
+  font-size: 19px;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.quote__vocation {
+  margin-top: 5px;
+}

@@ -1,0 +1,26 @@
+.market {
+  margin-top: 200px;
+  margin-left: 20%;
+  margin-right: 30%;
+}
+
+.market__header {
+  color: #e92f3a;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+.market__title {
+  padding-right: 50%;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #424d60;
+}
+.market__description {
+  padding-right: 50%;
+  font-size: medium;
+  color: #9f958c;
+}
+
+.market__description > b {
+  color: #e82f3a;
+}

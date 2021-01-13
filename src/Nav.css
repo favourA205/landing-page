@@ -1,0 +1,117 @@
+.nav {
+  border-bottom: 1px solid rgb(226, 213, 213);
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav__whole {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 90px;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  color: #e82f3a;
+  font-size: 1.65em;
+  letter-spacing: 8px;
+  font-weight: 500;
+}
+
+.nav__link > strong {
+  color: #2f3456;
+}
+
+.nav__linkb {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #2f3456;
+  margin-bottom: 10px;
+}
+
+.nav__linkb:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.nav__signup {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #404c60;
+  color: white;
+  font-size: 18px;
+  margin-top: 9px;
+  border: none;
+  border-radius: 0.15em;
+  /*Animations*/
+  transistion-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__signup:hover {
+  background-color: #2f3444;
+}
+
+/* Dropdown Button */
+.nav__link {
+  background-color: transparent;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.nav__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.nav__dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.nav__dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.nav__dropdown-content a:hover {
+  background-color: #ddd;
+
+  text-decoration-color: black;
+}
+
+/* Show the dropdown menu on hover */
+.nav__dropdown:hover .nav__dropdown-content {
+  display: block;
+
+  text-decoration-color: black;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.nav__dropdown:hover .nav__link {
+  text-decoration-color: black;
+}

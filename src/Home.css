@@ -1,0 +1,59 @@
+.home {
+  margin: 100px;
+}
+
+.home__title {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 50px;
+  padding-right: 400px;
+  color: rgba(45, 58, 79, 0.9);
+}
+
+.home__description {
+  color: rgba(45, 58, 79, 0.9);
+  padding-right: 400px;
+  font-size: 25px;
+  margin: 50px;
+}
+
+.home__button__signup {
+  margin-left: 50px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 20px;
+  background-color: #e82f3a;
+  border: none;
+  color: white;
+  border-radius: 0.15em;
+  font-size: 16px;
+  transistion-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.home__button__signup:hover {
+  background-color: #b6252e;
+  color: #fff1c9;
+}
+
+.home__button__learnmore {
+  margin-left: 10px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  background-color: #f4f5f7;
+  border: none;
+  color: rgba(45, 58, 79, 0.9);
+  font-size: 17px;
+  border: none;
+  border-radius: 0.15em;
+  /*Animations*/
+  transistion-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.home__button__learnmore:hover {
+  background-color: #e9eaec;
+}

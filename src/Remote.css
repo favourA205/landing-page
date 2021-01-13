@@ -1,0 +1,36 @@
+.remote {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border: 2px #e82f3a solid;
+  margin: 190px;
+}
+
+.remote__header {
+  color: #e92f3a;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 9px;
+  margin-top: 40px;
+  letter-spacing: 3px;
+}
+
+.remote__title {
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #424d60;
+  margin-bottom: 9px;
+  word-spacing: 1px;
+}
+.remote__description {
+  font-size: medium;
+  margin-left: 23%;
+  margin-right: 20%;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  word-spacing: 1px;
+
+  color: #a6a59b;
+  margin-bottom: 50px;
+}
